@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0);
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
+    text-transform: uppercase;
+}
+
+nav h1 {
+    color: white;
+    font-size: 15px;
+}
+
+#left img {
+    height: 53px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+#left img:hover {
+    transform: scale(1.1);
+}
+
+#center {
+    display: flex;
+}
+
+#center h1 {
+    padding: 10px 10px;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+
+#center h1:hover {
+    background-color: white;
+    color: black;
+}
+
+#right {
+    display: flex;
+    align-items: center;
+
+}
+
+#right h1:nth-child(1) {
+    padding: 12px 20px;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+#right h1:hover {
+    border: 1px solid white;
+}
+
+#right button {
+    border: none;
+    padding: 15px 25px;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 2px;
+}
+
+#right button:hover {
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+
+#home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 80px);
+}
+
+
+#home-page h1 {
+    margin-bottom: 57px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 100px;
+    line-height: 25px;
+}
+
+#home-page h1,
+h6,
+#ann {
+    z-index: 9;
+}
+
+#home-page span {
+    background-color: #762424;
+    padding: 18px 25px;
+    font-size: 26px;
+    border-radius: 40px;
+    margin: 0px 18px;
+    transition: 0.5s;
+}
+
+#home-page span:hover {
+    background-color: #a33131;
+}
+
+#ann button {
+    display: inline;
+    font-size: 30px;
+    padding: 8px 13px 6px 14px;
+    margin: 10px 10px 92px 0;
+    background-color: white;
+    border: none;
+    transition: 0.5s;
+}
+
+#ann button:hover {
+    background-color: rgb(207, 207, 207);
+}
+
+#ann h3 {
+    font-size: 16px;
+    display: inline;
+    color: white;
+}
+
+#home-page h6 {
+    position: absolute;
+    bottom: 8vh;
+    left: 50vw;
+    color: white;
+}
+
+#images img {
+    position: absolute;
+    border-radius: 12px;
+    filter: brightness(0.7);
+}
+
+#tl {
+    top: 17vh;
+    left: 10vw;
+    height: 188px;
+}
+
+#bl {
+
+    height: 170px;
+    bottom: 15vh;
+    left: 21vw;
+
+}
+
+#tr {
+    height: 125px;
+    top: 17vh;
+    right: 15vw;
+}
+
+#br {
+    height: 200px;
+    bottom: 11vh;
+    right: 18vw;
+}
+
+#sm {
+    position: relative;
+    bottom: 2vh;
+    right: 42vw;
+    color: white;
+}
+
+#page2 {
+    height: 100vh;
+    background: rgb(250, 166, 114);
+}
